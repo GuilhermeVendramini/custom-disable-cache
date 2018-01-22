@@ -1,0 +1,5 @@
+name: Custom disable cache
+type: module
+description: Custom disbale cache
+core: 8.x
+package: Custom

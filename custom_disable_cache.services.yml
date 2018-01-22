@@ -1,0 +1,5 @@
+services:
+  custom_event_subscriber:
+    class: Drupal\custom_disable_cache\EventSubscriber\CacheDisableSubscriber
+    tags:
+      - {name: event_subscriber}
